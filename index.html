@@ -8,11 +8,13 @@
 <body>
 <div id="resultado"></div>
 <script>
-var valores= [10,30,40,20]
-var resultado=valores[0]+valores[1]+valores[2]+valores[3]
-document.getElementById('resultado').innerHTML="Resultado="+resultado
+    function sumar(valor1,valor2)
+    {
+        var resultado=valor1+valor2;
+        document.getElementById("resultado").innerHTML="La funcion obtiene la siguiente suma"+resultado;
 
-
+    }
+    sumar(50,200);
 </script>
     
 </body>
